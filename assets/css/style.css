@@ -1,0 +1,23 @@
+body {
+    margin: auto;
+    width:960px;
+    background:#222930;
+}
+
+h1 {
+    background:#4EB1BA;
+    color: greenyellow;
+
+}
+
+hr{
+    color:rgb(241, 201, 22);
+}
+
+p{
+    color: #D9B08C;
+}
+
+h2 {
+    color:navy;
+}
