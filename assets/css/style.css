@@ -55,3 +55,7 @@ h2 {
     box-sizing: border-box;
     background-color:blue;
   }
+
+  a {
+    color:red;
+  }
