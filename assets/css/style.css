@@ -180,12 +180,7 @@ h2 {
       padding-top: 20px;
      padding-bottom: 20px;
      margin-top: 20px;
-     float: bottom;
-    }
-
-    footer p {
-        position: relative;
-
+    position: fixed;
     }
     #contact-info li {
         list-style-type: none;
