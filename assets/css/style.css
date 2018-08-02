@@ -9,20 +9,22 @@ body {
 .wrapper {
      background-color:#ffffff;
      width: 100%;
-     padding-top:3em;
-     padding-bottom: -1.5em;
+     padding-top:1em;
+     padding-bottom: -1.6em;
     /* color: #4aaaa5 ; */ 
 }
 
 h1 {
     float: left;    
-    padding:13px;
+    padding:-13px;
     margin-top: 14.5px;
-    margin-left: 280px;
+    margin-left: 290px;
     background-color: #4aaaa5;
     color: white;
-    border: 10px solid #4aaaa5;
+    border: 17px solid #4aaaa5;
     text-align: center;
+    font-size:20px;
+    margin-bottom: 20px;
     }
 
     
@@ -49,7 +51,7 @@ nav ul {
     background-color:#ffffff;
     list-style-type: none;
     border-spacing:0;
-    padding-top:23px;
+    padding-top:-5px;
     padding-bottom: 23px;
     padding-right:10px;
     padding-left:360px;
@@ -71,10 +73,10 @@ nav li {
 }
 
 nav a {
-    color:#cccccc;
+    color:gray;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 11px;
     position:right;
     margin-right: 20px;
     float:left;
@@ -103,16 +105,32 @@ nav a:hover::before{
 
   
 img {    
-    margin-right: 20px;
+    padding-top: 1.5em;
+    padding-left: 2em;
+    padding-right: 1em;
+    float: left;
+    
+    margin:auto;
 }
 
 hr{
-    background-color:rgb(230, 44, 255);
+    float: top;
+    width: 840px;
+    position:center;
+    margin: auto;
+    padding-top: -1em;
+    
+    /*margin-left: 35px;
+    margin-right: 35px;*/
+    
+    
 }
 h2 {
-    color:#55d6aa;
+    color:#4aaaa5;
     padding:1em;
-    position: relative;
+    position: left;
+    margin-left: 12px;
+   
 }
 
 /* {
@@ -124,14 +142,21 @@ h2 {
     box-sizing: border-box;
     /*background-color:whitesmoke;*/
     background-color:#ffffff;
-    
+    border: solid 1px #666666;
     float: center;
     margin: auto;
+    padding-top: -2.5em;
+    padding-bottom: 2.5em;
     
   }
  p{
      position: center;
      font-size: auto;
+     width:800px;
+     margin: auto;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: #777777;
+     padding-top: 1em;
  }
 
   a {
@@ -139,8 +164,30 @@ h2 {
   }
 
   textarea {
-      background: rgb(84, 85, 2);
+      background:#eeee;
       width: 500px;
       font-size: 20px;
       margin:auto;
+      list-style-type: none;
   }
+  textarea ul {
+    list-style-type: none;
+  }
+
+  footer {
+      background-color:#666666;
+     border-top:5px #4aaaa5 solid ;
+      padding-top: 20px;
+     padding-bottom: 20px;
+     margin-top: 20px;
+     float: bottom;
+    }
+
+    footer p {
+        position: relative;
+
+    }
+    #contact-info li {
+        list-style-type: none;
+        color: #777777;
+    }
