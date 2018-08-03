@@ -22,21 +22,25 @@
         </div>
     </header>
     <div class="container">
-        <form>
+        <form method="post" action="mailto:youremail@youremail.com" >
             <section id="contact-info">
                 <h2>Contact</h2>
                 <hr>
-                <ul>
+                <ul class="contact-form">
                     <li><strong>Name</strong></li>
-                    <input type="text" name="textbox1" size="125" value="Kristian Neely">
+                    <input type="text" name="textbox1" size="113" value="Kristian Neely">
+                    <br>
                     <br>
                     <li><strong>Email</strong></li>
-                    <input type="text" name="textbox2" size="125" value="kneely13@students.ndc.edu">
+                    <input type="text" name="textbox2" size="113" value="kneely13@students.ndc.edu">
+                    <br>
                     <br>
                     <li><strong>Message</strong> 
                     <br>
                     <textarea name="message" row="40" value="Type your message here..." ></textarea>   
                 </ul>
+                
+                <input class="button" type="submit" value="Send Email">
             </section>
         </form>  
     </div>
