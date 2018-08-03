@@ -102,7 +102,7 @@ h2 {
     margin: auto;
     padding-bottom: 1.5em; 
   }
-  
+
 p {
     width:800px;
      margin: auto;
@@ -149,4 +149,40 @@ footer p{
     position: relative;
     }
 
+table {
+    width:945px;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    padding: 0.5em;
     
+}
+    
+tr {
+    padding-top: 1.2em;
+    padding-right: 4.2em;
+    padding-bottom: 1.2em;
+    padding-left: 2.7em;
+    vertical-align: inherit;
+    margin: 12px;
+    
+}
+
+.profile-image {
+    display: table-cell;
+    padding: 0em;
+    
+}
+
+td {
+    
+    display: table-cell;
+    vertical-align: inherit;
+    padding: 3.5em;
+    padding-top: 1.5em;
+    padding-right: 4.5em;
+    padding-bottom: 1.5em;
+    padding-left: 3em;
+}
+
+
