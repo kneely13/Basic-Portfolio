@@ -222,22 +222,17 @@ td {
     margin-left: 79px;
 }
 
-#banner{
+.portfolio-images {
     position:relative;
       background-color:green;
       padding:10px;
-      border-top:5px #4aaaa5 solid ; 
+     ; 
     }
     img{
     vertical-align:top;
     }
-    .bannerTextOne{
-        position: relative;
-        right: 0px;
-        bottom: -120px;
-        width: 200px;
-        max-height: 30px;
-        background-color: #4aaaa5;
-        
-    }
+   
+    .portfolio-image {
+        display: block;
+}
     
