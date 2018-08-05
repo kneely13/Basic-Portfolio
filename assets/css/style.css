@@ -223,16 +223,19 @@ td {
 }
 
 .portfolio-images {
-    position:relative;
-      background-color:green;
-      padding:10px;
-     ; 
-    }
-    img{
-    vertical-align:top;
-    }
-   
-    .portfolio-image {
+
         display: block;
-}
     
+}
+
+
+
+.text-profile-image p {
+        margin: auto;
+        padding-top: 8em;
+        background-color: aqua;
+        padding-left: 82px;
+        padding-right: 75.6px;
+        width: 42px;
+}
+
